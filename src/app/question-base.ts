@@ -40,7 +40,7 @@ export class OptionGenerator {
     let controlTypes = ['textbox', 'dropdown'];
     let textboxTypes = ['text', 'email', 'password'];
     let options = [];
-    for (let i=0; i<randomNumber(10); i++) {options.push({key: randomString(), value: randomString()})}
+    for (let i=0; i<(randomNumber(10)+3); i++) {options.push({key: randomString(), value: randomString()})}
     this.value = randomString();
     this.key = randomString();
     this.label = randomString();
